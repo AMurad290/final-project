@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.p-body {
+    font-family: 'Roboto', sans-serif;
+}
+.hover:hover {
+    color: white;
+    text-decoration: none;
+}
+.main1{
+    background: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("home.jpeg")
+}
+.section1 .icons{
+    justify-content: start;
+    letter-spacing: 9px;
+}
+.icons a{
+    display: block;
+    text-align: center;
+    font-size: 17px;
+}
+@media(min-width:1200px){
+    .main1{
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 730px;
+        background-position: 50% 50%;
+    }
+    .section1{
+        width: 646px;
+        height: 333px;
+        padding-left: 20px;
+        margin: 0 150px;
+    }
+    .section1 h1{
+        margin: 35px 133px 0 0 ;
+        line-height: 1;
+    }
+    .main1 .section1 .icons{
+        margin-top: 48px;
+    }
+    .main2{
+        height: 475px;
+    }
+    .main4{
+        height: 264px;
+    }
+    .main5{
+        width: 1440px;
+        height: 495px;
+    }
+    .main6{
+        width: 1440px;
+        height: 300px;
+    }
+}
+@media (min-width:993px) and (max-width:1199px){
+    .main1{
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 747px;
+        background-position: 50% 50%;
+    }
+    .section1{
+        width: 638px;
+        height: 355px;
+        padding-left: 16px;
+        margin: 0 50px;
+    }
+    .main1 .section1 .icons{
+        margin-top: 48px;
+    }
+}
+@media (min-width:768px)and (max-width:992px){
+    .main1{
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 730px;
+        background-position: 50% 50%;
+    }
+    .section1{
+        width: 605px;
+        height: 355px;
+        padding-left: 16px;
+        margin: 0 50px;
+    }
+    .main1 .section1 .icons{
+        margin-top: 48px;
+    }
+}
+@media (min-width:576px) and (max-width:767px){
+    .main1{
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 730px;
+        background-position: 50% 50%;
+    }
+    .section1{
+        width: 374px;
+        height: 355px;
+        padding-left: 9px;
+        margin: 0 50px;
+    }
+    .main1 .section1 .icons{
+        margin-top: 48px;
+    }
+}
+@media(max-width:575px){
+    .main1{
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 730px;
+        background-position: 50% 50%;
+    }
+    .section1{
+        width: 321px;
+        height: 355px;
+        padding-left: 9px;
+        margin: 0 50px;
+        padding-top: 10px;
+    } 
+    .main2{
+        height: 1057px;
+    }
+   .main3{
+    height: 1622px;
+   }
+   .main4{
+    height: 797px;
+   }
+   .main5{
+    width: 440px;
+    height: 900px;
+   }
+   .main6{
+    width: 440px;
+    height: 1110px;
+   }
+}
